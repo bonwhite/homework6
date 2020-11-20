@@ -30,7 +30,7 @@ document.querySelector("#faster").addEventListener("click", function() {
 document.querySelector("#skip").addEventListener("click", function() {
 	console.log("Skip Ahead 5 seconds");
 	if (video.currentTime < video.duration -5){
-		video.currentTime +-5;
+		video.currentTime +=5;
 		}
 		else{
 		video.currentTime -0;
